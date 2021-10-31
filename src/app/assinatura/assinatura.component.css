@@ -54,4 +54,13 @@
   text-justify: inter-word;
 }
 
+.titulo-principal {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  text-align: center;
+  text-justify: inter-word;
+  color: #046804;
+  margin-bottom: 20px;
+}
+
 
