@@ -29,12 +29,6 @@
   object-position: 0 60%;
 }
 
-.btn-cor-especial {
-  background-color: #74b474;
-  color: white;
-
-}
-
 #cor-titulo {
   color: #74b474;
 }
@@ -61,6 +55,11 @@
   text-justify: inter-word;
   color: #046804;
   margin-bottom: 20px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
 }
 
 
