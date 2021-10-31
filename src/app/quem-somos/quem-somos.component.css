@@ -1,3 +1,4 @@
+
 #imagem-principal {
   object-fit:cover; object-position: 0 80%;
   height: 500px;
@@ -25,14 +26,49 @@
   text-justify: inter-word;
 }
 
-.card-img {
-  border-radius: 50%;
-  width: 400px;
-  height: 400px;
+.card {
+  border-radius: 20px;
+  width: 850px;
+  height: 150px;
+  margin-top: 2rem;
+}
+
+.borda {
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-bottom: 100px;
+}
+
+.card-apoiadores {
+  align-items: center;
+}
+
+.imagem {
+  width: 150px;
+  height: 200px;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.imagem-shehacks {
+  height: 60px;
+  margin: 30px;
+}
+
+.imagem-cli {
+  height: 140px;
+}
+
+.col-conteudo {
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 20px;
 }
 
 .linha-imagem {
   margin-bottom: 150px;
 }
+
+
+
+
 
 

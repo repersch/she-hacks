@@ -5,7 +5,7 @@
 }
 
 .titulo {
-  /* padding-top: 20px; */
+  padding-top: 20px;
   text-align: center;
 }
 
@@ -15,6 +15,7 @@
   text-align: center;
   text-justify: inter-word;
   color: #046804;
+  margin-bottom: 20px;
 }
 
 .paragrafo {
@@ -41,13 +42,7 @@
   height: 200px;
 }
 
-.estilo-botao {
-  background-color: #046804;
-  color: white;
-}
-
 .bloco-texto {
-  /* padding-top: 10px; */
   padding-left: 150px;
   padding-right: 150px;
   padding-bottom: 200px;
