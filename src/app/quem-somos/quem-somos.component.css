@@ -1,0 +1,38 @@
+#imagem-principal {
+  object-fit:cover; object-position: 0 80%;
+  height: 500px;
+  margin-top: 80px;
+}
+
+.bloco-texto {
+  /* padding-top: 150px; */
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-bottom: 200px;
+}
+
+.fonte-texto {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.fonte-textoTitulo {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.card-img {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+}
+
+.linha-imagem {
+  margin-bottom: 150px;
+}
+
+

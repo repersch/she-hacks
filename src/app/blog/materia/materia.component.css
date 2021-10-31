@@ -1,0 +1,61 @@
+.borda {
+  padding-top: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 150px;
+}
+
+.titulo {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.imagem {
+  width: 450px;
+  height: 350px;
+  margin: 0 auto;
+}
+
+.fonte-titulo {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  text-align: center;
+  text-justify: inter-word;
+  color: #046804;
+}
+
+.imagens-paragrafo {
+  width: 350px;
+  height: 220px;
+  margin: 0 auto;
+}
+
+.paragrafo {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.paragrafo-esquerda {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+  padding-right: 400px;
+}
+
+.paragrafo-direita {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+  padding-left: 400px;
+}
+
+.bloco-texto {
+  padding-top: 150px;
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-bottom: 200px;
+}

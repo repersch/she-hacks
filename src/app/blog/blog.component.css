@@ -1,0 +1,54 @@
+#imagem-principal {
+  object-fit:cover; object-position: 0 80%;
+  height: 500px;
+  margin-top: 80px;
+}
+
+.titulo {
+  /* padding-top: 20px; */
+  text-align: center;
+}
+
+.fonte-titulo {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  text-align: center;
+  text-justify: inter-word;
+  color: #046804;
+}
+
+.paragrafo {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  text-align: center;
+  text-justify: inter-word;
+}
+
+.card {
+  border-radius: 20px;
+  width: 950px;
+}
+
+.borda {
+  padding-top: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+}
+
+.imagem {
+  width: 150px;
+  height: 200px;
+}
+
+.estilo-botao {
+  background-color: #046804;
+  color: white;
+}
+
+.bloco-texto {
+  /* padding-top: 10px; */
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 200px;
+}

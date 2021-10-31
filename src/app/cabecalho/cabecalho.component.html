@@ -1,0 +1,80 @@
+<nav class="navbar navbar-expand-lg   fixed-top cor-navbar">
+  <div class="container-fluid">
+    <img class="img-fluid img-usuario" src="../../assets/imagens/logo.png" width="110" height="60" [routerLink]="['/home']"/>
+
+    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+      <ul class="navbar-nav mr-auto">
+
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/feiras']">Feiras</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/assinatura']">Assinatura</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="modal" [routerLink]="['/blog']">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/quem-somos']">Quem somos</a>
+        </li>
+        <li class="nav-item">
+          <a href="" class="nav-link" data-toggle="modal" data-target="#modalContato">Contato</a>
+        </li>
+      </ul>
+
+      <form class="campo-pesquisar d-flex">
+        <input class="form-control mr-sm-2 input-pesquisar" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+        <button class="btn btn-outline-success btn-pesquisar" type="submit"><i src="src/assets/imagens/search-solid.svg" class="fas fa-search"></i></button>
+      </form>
+
+      <div class="d-flex usuario-logado">
+        <img class="img-usuario" src="../../assets/imagens/usuario.png" width="40" height="40" />
+        <div class="espaco-linhas">
+          <p style="font-size: 20px; margin-left: 15px;">Berenice Maria</p>
+          <img class="img-fluid img-usuario" src="../../assets/imagens/local.png" width="20" style="margin-top: 0px;" /> São Carlos-SP
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="modal fade" id="modalContato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header modal-conteudo">
+        <h5 class="modal-title texto-modal-titulo" id="exampleModalLabel">Envie sua mensagem para o Seu Orgânico</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body modal-conteudo">
+        <form>
+          <div class="form-group">
+            <label for="nome" class="col-form-label texto-modal">Nome:</label>
+            <input type="text" class="form-control texto-modal-placeholder" id="nome" placeholder="Nome completo">
+          </div>
+
+          <div class="form-group">
+            <label for="email" class="col-form-label texto-modal">Email:</label>
+            <input type="email" class="form-control texto-modal-placeholder" id="nome" placeholder="email@email.com">
+          </div>
+
+          <div class="form-group">
+            <label for="telefone" class="col-form-label texto-modal">Telefone:</label>
+            <input type="text" class="form-control texto-modal-placeholder" id="telefone" placeholder="(xx) 91111-1111">
+          </div>
+
+          <div class="form-group">
+            <label for="mensagem" class="col-form-label texto-modal">Mensagem:</label>
+            <textarea name="mensagem" id="mensagem" cols="10" rows="3" class="form-control texto-modal-placeholder" placeholder="Digite sua mensagem aqui"></textarea>
+          </div>
+
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-cancelar" data-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-success">Enviar</button>
+      </div>
+    </div>
+  </div>
+

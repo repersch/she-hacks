@@ -1,0 +1,57 @@
+#imagem-principal {
+  object-fit:cover; object-position: 0 80%;
+  height: 500px;
+  margin-top: 80px;
+}
+
+.fonte-titulo {
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+}
+
+.card-imagem {
+  width: 18rem;
+  object-fit:cover;
+  object-position: 0 60%;
+}
+
+.card-imagem-top {
+  height:200px;
+  object-fit:cover;
+  object-position: 0 70%;
+}
+
+.thumb-redondo {
+  border-radius:50%;
+  width:300px;
+  height:300px;
+  object-fit:cover;
+  object-position: 0 60%;
+}
+
+.btn-cor-especial {
+  background-color: #74b474;
+  color: white;
+
+}
+
+#cor-titulo {
+  color: #74b474;
+}
+
+#opcoes {
+  margin-bottom: 100px;
+}
+
+.card-footer {
+  justify-content:space-between;
+}
+
+.paragrafo {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  text-align: center;
+  text-justify: inter-word;
+}
+
+

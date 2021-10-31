@@ -1,0 +1,69 @@
+.cor-titulo {
+  color: #046804;
+}
+
+.cor-navbar {
+  background-color: #74b474!important;
+}
+
+.campo-pesquisar {
+  align-items: center;
+}
+
+.fonte-titulo {
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+}
+
+.input-pesquisar {
+  width: 250px;
+}
+
+.usuario-logado {
+  margin-left: 20%;
+}
+
+.img-usuario {
+  margin-left: 10px;
+}
+
+.nav-link {
+  color: black;
+  font-size: 18px;
+}
+
+.nav-link:hover {
+  transform: scale(1.2);
+}
+
+.modal-conteudo {
+  padding: 1rem;
+}
+
+.texto-modal-titulo {
+  font-family: 'Playfair Display';
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.texto-modal {
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+}
+
+.texto-modal-placeholder {
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+}
+
+.espaco-linhas {
+  line-height: 0.2;
+}
+
+.btn-pesquisar {
+  color: #0d3d0d;
+  border-color: #0d3d0d;
+}
+
+
+

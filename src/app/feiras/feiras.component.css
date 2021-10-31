@@ -1,0 +1,51 @@
+#imagem-principal {
+  object-fit:cover; object-position: 0 80%;
+  height: 500px;
+  margin-top: 80px;
+}
+
+.card {
+  border-radius: 20px;
+  width: 950px;
+  margin-top: 2rem;
+}
+
+.borda {
+  padding-top: 50px;
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-bottom: 100px;
+}
+
+.imagem {
+  width: 150px;
+  height: 200px;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.bloco-texto {
+  padding-top: 150px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 200px;
+}
+
+.titulo {
+  font-family: 'Playfair Display';
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-align: justify;
+}
+
+.subtitulo {
+  font-family: 'Playfair Display';
+  font-size: 1.4rem;
+  text-align: justify;
+
+}
+
+.informacoes {
+  font-family: 'Playfair Display';
+  font-size: 1.1rem;
+  font-weight: 400;
+}

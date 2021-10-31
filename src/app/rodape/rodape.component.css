@@ -1,0 +1,16 @@
+.rede-social {
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  text-decoration:none;
+}
+
+.text-reset, .text-left  {
+  color: black;
+}
+
+.text-right {
+  background-color: #74b474;
+  color:black;
+}
+
